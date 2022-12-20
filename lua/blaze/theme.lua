@@ -285,7 +285,7 @@ theme.set_highlights = function()
 
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { fg = c.folder_blue, bg = 'NONE' })
-  hl(0, "NvimTreeIndentMarker", { fg = '#c5c5c5', bg = 'NONE' })
+  hl(0, "NvimTreeIndentMarker", { fg = c.bg_dark, bg = 'NONE' })
   hl(0, "NvimTreeNormal", { fg = c.light_gray, bg = c.bg_dark })
   hl(0, "NvimTreeVertSplit", { fg = c.bg_dark, bg = c.bg_dark })
   hl(0, "NvimTreeFolderName", { fg = c.folder_blue, bg = 'NONE' })
@@ -325,8 +325,8 @@ theme.set_highlights = function()
   hl(0, "BufferInactiveTarget", { fg = c.red, bg = c.bg_dark, bold=true, })
 
   -- StatusLine
-  hl(0, "StatusLine", { fg = c.line, bg = c.gray })
-  hl(0, "StatusLineNC", { fg = c.line, bg = c.gray })
+  hl(0, "StatusLine", { fg = c.line, bg = c.bg_dark })
+  hl(0, "StatusLineNC", { fg = c.line, bg = c.bg_dark })
   hl(0, "StatusLineSeparator", { fg = c.line, bg = 'NONE' })
   hl(0, "StatusLineTerm", { fg = c.line, bg = 'NONE' })
   hl(0, "StatusLineTermNC", { fg = c.line, bg = 'NONE' })
@@ -334,7 +334,7 @@ theme.set_highlights = function()
   -- IndentBlankline
   hl(0, "IndentBlanklineContextChar", { fg = c.context, bg = 'NONE' })
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline=true, })
-  hl(0, "IndentBlanklineChar", { fg = c.dark_gray, bg = 'NONE' })
+  hl(0, "IndentBlanklineChar", { fg = c.bg, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceChar", { fg = c.cyan_test, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceCharBlankline", { fg = c.info_white, bg = 'NONE' })
 

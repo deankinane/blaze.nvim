@@ -348,7 +348,7 @@
 
 [NvimTree]
  NvimTreeFolderIcon = 'folder_blue'
- NvimTreeIndentMarker = '#c5c5c5'
+ NvimTreeIndentMarker = 'bg_dark'
  NvimTreeNormal = 'light_gray bg_dark'
  NvimTreeVertSplit = 'bg_dark bg_dark'
  NvimTreeFolderName = 'folder_blue'
@@ -391,8 +391,8 @@
  BufferInactiveTarget = 'red bg_dark b'
 
 [StatusLine]
- StatusLine = 'line gray'
- StatusLineNC = 'line gray'
+ StatusLine = 'line bg_dark'
+ StatusLineNC = 'line bg_dark'
  StatusLineSeparator = 'line'
  StatusLineTerm = 'line'
  StatusLineTermNC = 'line'
@@ -400,7 +400,7 @@
 [IndentBlankline]
  IndentBlanklineContextChar = 'context'
  IndentBlanklineContextStart = '- - u'
- IndentBlanklineChar = 'dark_gray'
+ IndentBlanklineChar = 'bg'
  IndentBlanklineSpaceChar = 'cyan_test'
  IndentBlanklineSpaceCharBlankline = 'info_white'
 
