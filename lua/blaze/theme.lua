@@ -145,6 +145,10 @@ theme.set_highlights = function()
   hl(0, "typescriptIdentifier", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptBoolean", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptProp", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptStringMethod", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptArrayMethod", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptNumberMethod", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptDateMethod", { fg = c.blaze_yellow, bg = 'NONE' })
 
   -- tsx
   hl(0, "htmlTag", { fg = c.fg_dim, bg = 'NONE' })
