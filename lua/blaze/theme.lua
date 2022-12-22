@@ -1,4 +1,4 @@
-
+Boolean
 local c = require('blaze.palette')
 
 local hl = vim.api.nvim_set_hl
@@ -139,13 +139,13 @@ theme.set_highlights = function()
   hl(0, "typescriptCall", { fg = c.blaze_purple, bg = 'NONE', italic=true, })
   hl(0, "typescriptIdentifierName", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptTypeReference", { fg = c.blaze_yellow, bg = 'NONE' })
-  hl(0, "typescriptProp", { fg = c.white, bg = 'NONE' })
   hl(0, "typescriptParenExp", { fg = c.ui_red, bg = 'NONE' })
   hl(0, "typescriptFuncType", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptInterfaceName", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptTypeAnnotation", { fg = c.fg_dim, bg = 'NONE' })
   hl(0, "typescriptIdentifier", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptBoolean", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptProp", { fg = c.blaze_yellow, bg = 'NONE' })
 
   -- tsx
   hl(0, "htmlTag", { fg = c.fg_dim, bg = 'NONE' })
