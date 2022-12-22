@@ -1,6 +1,6 @@
 # blaze.nvim
 Blaze is the only Neovim color scheme that is guaranteed to make you a *blazingly fast* developer [^1]
 
-![image](https://user-images.githubusercontent.com/22434814/209189354-1e74c718-22f8-4911-a892-f5a25cf8067c.png)
+![image](https://user-images.githubusercontent.com/22434814/209190026-b58481e4-fa16-4b59-9f28-ee28d38f6595.png)
 
 [^1]: This statement may not be factual.
