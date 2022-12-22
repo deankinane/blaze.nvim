@@ -1,4 +1,3 @@
-Boolean
 local c = require('blaze.palette')
 
 local hl = vim.api.nvim_set_hl
