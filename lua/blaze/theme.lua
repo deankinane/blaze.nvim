@@ -149,6 +149,7 @@ theme.set_highlights = function()
   hl(0, "typescriptArrayMethod", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptNumberMethod", { fg = c.blaze_yellow, bg = 'NONE' })
   hl(0, "typescriptDateMethod", { fg = c.blaze_yellow, bg = 'NONE' })
+  hl(0, "typescriptIndexExpr", { fg = c.blaze_pink, bg = 'NONE' })
 
   -- tsx
   hl(0, "htmlTag", { fg = c.fg_dim, bg = 'NONE' })
